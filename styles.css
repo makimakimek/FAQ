@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#buttonAndQuestionDiv {
+    display: flex;
+}
+
+#questions > div {
+    border: 1px solid black;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buttonAndQuestionDiv > button {
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+
+#buttonAndQuestionDiv, #questions > div > div {
+    font-size: 20px;
+    margin-left: 20px;
+}
